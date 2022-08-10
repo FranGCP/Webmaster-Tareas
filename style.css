@@ -1,0 +1,104 @@
+*{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    background-color: #2B3784;
+}
+
+h1{
+    text-align: center; 
+    background-color: #DF1F2D;
+    padding: 10px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px double #2B3784;
+}
+
+img{
+    border: 10px double black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    border: 10px double #2B3784;
+    background-color: #B11313;
+    padding: 10px;
+    color: black;
+}
+
+h4{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    border: 10px double #2B3784;
+    background-color: #B11313;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+ul{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    display: block;
+    border: 10px double #2B3784;
+    padding: 10px 30px;
+    background-color: #B11313;
+    color: black;
+}
+
+ol{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    display: block;
+    border: 10px double #2B3784;
+    padding: 10px 30px;
+    background-color: #B11313;
+    color: black;
+}
+
+p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    border: 10px double #2B3784;
+    padding: 10px;
+    background-color: #B11313;
+}
+
+.Forms{
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    display: block;
+    border: 10px double #2B3784;
+    padding: 10px;
+    background-color: #B11313;
+
+}
+
+form{
+    margin-top: 18%;
+}
+
