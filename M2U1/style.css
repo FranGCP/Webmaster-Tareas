@@ -1,0 +1,151 @@
+* {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    background: linear-gradient(33deg, #2b3784 0%, #df1f2d 80%);
+    background: -webkit-linear-gradient(33deg, #2b3784 0%, #df1f2d 80%);
+    background: -moz-linear-gradient(33deg, #2b3784 0%, #df1f2d 80%);
+}
+
+h1 {
+    text-align: center;
+    background: #b11313;
+    background: linear-gradient(50deg, #b11313 0%, #df1f2d 80%);
+    background: -webkit-linear-gradient(50deg, #b11313 0%, #df1f2d 80%);
+    background: -moz-linear-gradient(50deg, #b11313 0%, #df1f2d 80%);
+    padding: 10px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #2B3784;
+    box-shadow: 0px 104px 165px -42px rgba(0, 0, 0, 0.75) inset;
+    border-radius: 38px 38px 38px 38px;
+}
+
+img {
+    border: 10px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 38px 38px 38px 38px;
+}
+
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    border: 10px solid #2B3784;
+    background: #b11313;
+    background: linear-gradient(50deg, #b11313 0%, #df1f2d 80%);
+    background: -webkit-linear-gradient(50deg, #b11313 0%, #df1f2d 80%);
+    background: -moz-linear-gradient(50deg, #b11313 0%, #df1f2d 80%);
+    padding: 10px;
+    color: black;
+    border-radius: 38px 38px 38px 38px;
+    box-shadow: 0px 104px 165px -42px rgba(0, 0, 0, 0.75) inset;
+}
+
+h4 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    border: 10px solid #2B3784;
+    background: #b11313;
+    background: linear-gradient(50deg, #b11313 0%, #df1f2d 80%);
+    background: -webkit-linear-gradient(50deg, #b11313 0%, #df1f2d 80%);
+    background: -moz-linear-gradient(50deg, #b11313 0%, #df1f2d 80%);
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 104px 165px -42px rgba(0, 0, 0, 0.75) inset;
+    border-radius: 38px 38px 38px 38px;
+}
+
+ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    display: block;
+    border: 10px solid #2B3784;
+    padding: 10px 30px;
+    background: #2b3784;
+    background: linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    background: -webkit-linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    background: -moz-linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    color: black;
+    border-radius: 42px 42px 137px 42px;
+}
+
+ol {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    display: block;
+    border: 10px solid #2B3784;
+    padding: 10px 30px;
+    background: #2b3784;
+    background: linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    background: -webkit-linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    background: -moz-linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    color: black;
+    border-radius: 42px 42px 137px 42px;
+}
+
+.text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    border: 10px solid #2B3784;
+    padding: 10px;
+    background: #2b3784;
+    background: linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    background: -webkit-linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    background: -moz-linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    border-radius: 38px 38px 38px 38px;
+    column-count: 2;
+}
+
+p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    border: 10px solid #2B3784;
+    padding: 10px;
+    background: linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    background: -webkit-linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    background: -moz-linear-gradient(180deg, #2b3784 0%, #df1f2d 80%);
+    border-radius: 38px 38px 38px 38px;
+}
+
+
+
+.Forms {
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    display: block;
+    border: 10px solid #2B3784;
+    padding: 10px;
+   
+
+}
+
+form {
+    margin-top: 18%;
+   
+}
