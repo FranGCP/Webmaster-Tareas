@@ -1,0 +1,109 @@
+/* Reglas Generales */
+* {
+    font-family: 'Gothic A1', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+/* Fin Reglas Generales */
+
+/* Reglas Generales */
+* {
+    font-family: 'Gothic A1', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+/* Fin Reglas Generales */
+
+/* Header */
+header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+header .logo{
+    display: flex;
+    justify-content: left;
+}
+header .logo img{
+    width: 5em;
+}
+/* Fin Header */
+
+/* Barra de Navegacion */
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    height: 4em;
+    z-index: 99999;
+
+}
+nav .barra{
+    width: 100%;
+    padding: 0px 10px;
+}
+nav .barra ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+nav a{
+    text-decoration: none;
+    color: orange;
+}
+nav li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    width: 60px;
+}
+nav li p{
+    padding-top: 3px;
+    margin: 0;
+    font-weight: bold;
+}
+nav li img{
+    width: 6em;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+nav li:hover{
+    transform: scale(1.2);
+    transition: .3s;
+    color: rgb(252, 192, 80);
+}
+/* Fin barra de Navegacion */
+
+/* Carrusel */
+.cimg{
+    width: 100%;
+}
+/* Carrusel */
+
+/* Main */
+main{
+    margin-bottom: 4em;
+    background-color: orange;
+}
