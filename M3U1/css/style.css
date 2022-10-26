@@ -7,7 +7,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: orange;
+    background-color: rgb(255, 175, 28);
 }
 /* Fin Reglas Generales */
 
@@ -92,7 +92,7 @@ nav li:hover{
 /* Main */
 main{
     margin-bottom: 4em;
-    background-color: orange;
+    background-color: rgb(255, 175, 28);
 }
 .titulog{
     display: flex;
@@ -111,7 +111,7 @@ main{
 }
 .textg{
     padding: 0px 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
 }
 /* Presentacion Style */
 .presentacion{
@@ -119,10 +119,10 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     margin: 20px 0px 0px 20px;
     color: whitesmoke;
-    box-shadow: 0px 0px 20px 10px black;
+    box-shadow: 0px 0px 20px 10px rgb(30, 30, 30);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: 10px orange double;
@@ -135,10 +135,10 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     margin: 40px 20px 0px 0px;
     color: whitesmoke;
-    box-shadow: 0px 0px 20px 10px black;
+    box-shadow: 0px 0px 20px 10px rgb(30, 30, 30);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border: 10px orange double;
@@ -153,19 +153,122 @@ main{
     padding: 20px;
     margin: 20px;
     margin-top: 40px;
-    box-shadow: 0px 0px 20px 10px black;
+    box-shadow: 0px 0px 20px 10px rgb(30, 30, 30);
 }
 .fotog{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: 10px black double   ;
 }
 .fotos:hover{
     transform: scale(1.05);
     transition: .3s ease;
-}
-/* Trabajos Style */
 
+}
+
+/* Trabajos Style */
+/* Seccion Nosotros */
+.info01{
+    background-color: rgb(30, 30, 30);
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 10px orange double;
+    border-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgb(30, 30, 30);
+    color: whitesmoke;
+}
+.info01 h3{
+    color: orange;
+}
+.equipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(30, 30, 30);
+    color: orange;
+    border: 10px orange double;
+    box-shadow: 0px 0px 20px 5px rgb(30, 30, 30);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 50px;
+}
+.equipo h2{
+    margin: 0px;
+}
+
+.nosotros01{
+    width: 100%;
+    display: flex;
+    background-image: url(https://via.placeholder.com/1500);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    box-shadow: inset 0px 0px 103px 59px rgba(0,0,0,0.75);
+    
+}
+.nosotros01 h2{
+    font-weight: bold;
+
+}
+.nosotros01 span{
+    color: orange;
+    font-weight: bold;
+}
+.nosotrosinfo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 20px 5px rgb(30, 30, 30);
+    border: 10px orange double;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgb(30, 30, 30);
+}
+.nosotrosinfo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px orange;
+    border: 5px orange solid;
+}
+.nosotrosinfo img:hover{
+    transform: scale(1.1);
+    transition: all .3s ease;
+}
+.nosotrosinfo h4{
+    margin: 0; 
+    padding-top: 20px;
+    font-size: medium;
+    color: orange;
+    font-weight: bold;
+    
+}
+.nosotrosinfo p{
+    margin: 0;
+    padding: 20px;
+    color: orange;
+}
+.containerinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* seccion Nosotros */
 /* Fin Main */
 
 /* Footer Style */
@@ -174,7 +277,7 @@ footer{
     width: 100%;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     margin-bottom: 4em;
     justify-content: space-between;
     align-items: center;
@@ -182,7 +285,7 @@ footer{
     font-size: small;
     color: whitesmoke;
     font-style: italic; 
-    
+    padding-bottom: 1.5em;    
 }
 footer .contactoinfo p{
     margin: 0;
@@ -190,6 +293,54 @@ footer .contactoinfo p{
 footer .copyright{
     display: flex;
     justify-content: right;
+    
+}
+footer .copyright p{
+    margin-bottom: 0;
 }
 
 /* Footer Style */
+
+/* Media */
+@media (min-width: 1007px){
+
+/* Barra de Navegacion */
+    nav{
+        position: sticky;
+        top: 0;
+    }
+    nav img{
+        padding-top: 20px;
+    }
+/* Barra de Navegacion */
+
+/* Carrusel */
+    .cimg{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+/* Carrusel */
+
+/* Trabajos Style */
+.trabajos{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+/* Trabajos Style */
+
+/* footer */
+footer{
+    margin: 0;
+    padding-bottom: 8px;
+}
+/* footer */
+
+/* Conocenos Style */
+.conocenos{
+    align-items: baseline;
+}
+/* Conocenos Style */
+
+}
+/* Media */
