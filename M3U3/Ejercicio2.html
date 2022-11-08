@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numeros = ['23','40','21','73','28','46'];
+        var max = numeros[0];
+
+        for (let i = 0; i < numeros.length; i++) {
+            if (max<numeros[i]) {
+                var max = numeros[i]
+            }
+        }
+
+        document.write('El numero mas alto es: '+ max);
+
+    </script>
+</body>
+</html>
