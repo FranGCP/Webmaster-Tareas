@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="rojo" style="background: red;">Rojo</div>
+        <div class="azul" style="background: blue;">Azul</div>
+        <div class="verde" style="background: green;">Verde</div>
+    </main>
+
+    <script>
+        var color = document.querySelectorAll("body main div");
+
+        color.forEach(function (co) {
+            co.addEventListener("click", function () {
+
+                var getColor = co.style.background;
+
+                document.body.style.background = getColor;
+
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
